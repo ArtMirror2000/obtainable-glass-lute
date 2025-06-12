@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+
+  </head>
+  <body>
+
+    <a-scene  cursor="rayOrigin: mouse">
+      
+                  <a-assets>
+    <img id="homeThumbnail" src="https://cdn.glitch.global/67a020dc-9fd1-4a69-a493-8d3bd69b7971/fav.ico?1652105355870" width="20" height="20" >
+  </a-assets>
+
+      <a-sky src="https://cdn.glitch.global/67a020dc-9fd1-4a69-a493-8d3bd69b7971/library.jpg?v=1652005350299" rotation="0 -130 0"></a-sky>
+                                                                                                                                
+
+      <a-text font="kelsonsans" value="RAS Student Library" width="6" position="-2.5 0 -1.5"
+              rotation="0 15 0"></a-text>
+      
+      <a-link href="https://fluorescent-decorous-frown.glitch.me/" title="My Homepage" image="#homeThumbnail" position="25 0 12"  width="2" height="2" ></a-link>  
+
+      
+</a-scene>
+  </body>
+</html>
